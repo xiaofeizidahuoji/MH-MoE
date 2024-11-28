@@ -1,6 +1,9 @@
 # MH-MoE
 The implementation of "Leveraging Heterogeneous Experts with Advantageous Pattern Memory Learning for Traffic Prediction".
 
+### Dataset
+Download the dataset from [Google Drive](https://drive.google.com/file/d/16MvSnIi6hX3G7kiR_el-FQbYCdSuw80T/view?usp=sharing). Move the downloaded dataset to the 'data/' directory. Extract the dataset to ensure the files are organized under the 'data/' directory.
+
 ### Training Instructions
 To train the model, modify the parameters in `run_moe.sh`. The framework will automatically perform training and testing.
 
