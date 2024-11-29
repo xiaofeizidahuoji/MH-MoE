@@ -366,7 +366,6 @@ class Trainer_Moe(object):
         y_true = torch.cat(y_true, dim=0)
         y_pred = torch.cat(y_pred, dim=0)
         if not args.real_value:
-            data_all = scaler.inverse_transform(data_all)
             y_true = scaler.inverse_transform(y_true)
             y_pred = scaler.inverse_transform(y_pred)
         
